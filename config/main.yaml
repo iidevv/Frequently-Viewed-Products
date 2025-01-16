@@ -1,0 +1,13 @@
+
+version: 5.5.0.4
+type: common
+authorName: "Ilya I"
+moduleName: 'Frequently Viewed Products'
+description: 'Frequently viewed products slider'
+minorRequiredCoreVersion: 0
+dependsOn:
+  - CDev-ProductAdvisor
+  - Qualiteam-SkinActSkin
+incompatibleWith: {  }
+showSettingsForm: true
+canDisable: true

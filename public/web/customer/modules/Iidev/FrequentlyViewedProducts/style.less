@@ -1,0 +1,37 @@
+.list-container div+.block.block-block.frequently-viewed-products {
+    margin: 30px 0 0 0 !important;
+    width: 100%;
+
+    @media (max-width: 767px) {
+        margin: 15px 0 0 0 !important;
+    }
+}
+
+.product-details .frequently-viewed-products {
+
+    .product-details-market-price,
+    .sale-label-product-details {
+        div.text {
+            font-size: 0;
+        }
+    }
+
+    .products-grid {
+        .product {
+            max-height: 320px;
+        }
+
+        .product:not(.prevent-hover):hover .product-photo img {
+            z-index: 1;
+        }
+
+        .product-photo {
+            height: 100%;
+        }
+
+        .product-name {
+            max-height: 36px !important;
+        }
+    }
+
+}

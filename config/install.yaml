@@ -1,0 +1,10 @@
+
+XLite\Model\Config:
+  - name: is_active
+    category: Iidev\FrequentlyViewedProducts
+    type: XLite\View\FormField\Input\Checkbox\OnOff
+    orderby: 100
+    value: 1
+    translations:
+      - code: en
+        option_name: 'Show frequently viewed products'
