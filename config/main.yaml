@@ -7,7 +7,7 @@ description: 'Frequently viewed products slider'
 minorRequiredCoreVersion: 0
 dependsOn:
   - CDev-ProductAdvisor
-  - CDev-ProductsCarousel
+  - QSL-ProductsCarousel
   - Qualiteam-SkinActSkin
 incompatibleWith: {  }
 showSettingsForm: true
