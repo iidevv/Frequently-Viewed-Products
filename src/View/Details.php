@@ -17,7 +17,7 @@ abstract class Details extends \XLite\View\Product\Details\Customer\Page\APage
     public function getCSSFiles()
     {
         $list   = parent::getCSSFiles();
-        $list[] = 'modules/Iidev/FrequentlyViewedProducts/style.less';
+        $list[] = 'modules/Iidev/FrequentlyViewedProducts/style.css';
 
         return $list;
     }

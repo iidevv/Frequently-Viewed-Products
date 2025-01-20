@@ -1,0 +1,27 @@
+.list-container div+.block.block-block.frequently-viewed-products {
+    margin: 30px 0 0 0 !important;
+    width: 100%;
+}
+@media (max-width: 767px) {
+    .list-container div+.block.block-block.frequently-viewed-products {
+        margin: 15px 0 0 0 !important;
+   }
+}
+.product-details .frequently-viewed-products .product-details-market-price div.text, .product-details .frequently-viewed-products .sale-label-product-details div.text {
+    font-size: 0;
+}
+.product-details .frequently-viewed-products .products-grid .product {
+    max-height: 320px;
+}
+.product-details .frequently-viewed-products .products-grid .product:not(.prevent-hover):hover .product-photo img {
+    z-index: 1;
+}
+.product-details .frequently-viewed-products .products-grid .product-photo {
+    height: 100%;
+}
+.product-details .frequently-viewed-products .products-grid .product-name {
+    max-height: 36px !important;
+}
+.product-details .frequently-viewed-products .products-grid .add-to-wishlist {
+    z-index: 2;
+}
