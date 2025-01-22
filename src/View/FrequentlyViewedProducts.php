@@ -7,7 +7,7 @@ use QSL\ProductsCarousel\View\CarouselDataAttributesTrait;
 use XCart\Extender\Mapping\ListChild;
 
 /**
- * @ListChild (list="product.details.page", weight="30")
+ * @ListChild (list="product.details.page", weight="31")
  * @Extender\Depend ({"CDev\ProductAdvisor","QSL\ProductsCarousel"})
  */
 class FrequentlyViewedProducts extends \CDev\ProductAdvisor\View\ABought
